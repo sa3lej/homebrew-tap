@@ -1,16 +1,16 @@
 class Tmtv < Formula
   desc "Terminal sharing built on tmux — share your terminal over SSH and the web"
   homepage "https://tmtv.se"
-  version "1.4.1"
+  version "1.4.2"
   license "ISC"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sa3lej/tmtv/releases/download/v1.4.1/tmtv-macos-arm64"
-      sha256 "b44a622ba2b8150b7831516e824ba14767f0c8e3934cdb733e789b75cda2349d"
+      url "https://github.com/sa3lej/tmtv/releases/download/v1.4.2/tmtv-macos-arm64"
+      sha256 "9672c1f0b04441c96c119e80e13489e743e4130e58ace470b86f28f7a2444748"
     elsif Hardware::CPU.intel?
-      url "https://github.com/sa3lej/tmtv/releases/download/v1.4.1/tmtv-macos-amd64"
-      sha256 "f48b6a64beae58174d8afe143dc03cae86ed61e71ce7413d69235a06750805df"
+      url "https://github.com/sa3lej/tmtv/releases/download/v1.4.2/tmtv-macos-amd64"
+      sha256 "b7cfb7bd52d7d77876373bdc59381f05951f9b52a72f44c634a75fdd8ed19c38"
     end
   end
 
